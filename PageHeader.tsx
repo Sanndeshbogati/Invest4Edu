@@ -15,8 +15,6 @@ class PageHeader extends React.Component<any,any> {
     this.state={
         showModalPopup:false,
         showModalPopup1:false,
-    
-        
     }
   }
   isShowPopup = (status: any)=>{
@@ -81,5 +79,5 @@ render() {
     )
 }   
 }
- 
+  
 export default PageHeader;
