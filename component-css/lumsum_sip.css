@@ -1,0 +1,157 @@
+.sip-lumsum{
+    margin-top: 100px;
+}
+.sip-lump-main {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 20px;
+}
+.nav-tabs {
+    border-bottom: 0;
+    margin-bottom: 2.2rem;
+}
+.lumsum-nav-item{
+    border-radius: 20px 0 0 20px;
+    background-color: #eef6fe;
+    padding-left: 5%;
+
+}
+.lum-nav-link{
+   padding: 2.2rem;
+}
+
+.lumsum_form-control{
+    width: 100%;
+}
+
+.cut_off_list{
+    list-style: none;
+}
+
+.lumsumBtn{
+    margin-bottom: 10px;
+    color: #2e7eed;
+    background-color: white;
+    border: 0 solid #2e7eed;
+    padding: 13px 40px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lumsumBtnConform{
+    background-color: #2e7eed;
+    color: white;
+    border-radius: 20px;
+}
+
+.lumsum-pointer{
+    padding-left: 30px;
+}
+
+/* .lumBtn a, .spiBtn a{
+    background-color: #eef6fe;
+    margin-bottom: 0px; 
+     background: 0 0; 
+     border: 1px solid transparent;
+     border-top-left-radius: 0.25rem; 
+     border-top-right-radius: 0.25rem;
+     border-radius: 17px; 
+     border-color: #dee2e6 #dee2e6 #fff; 
+     display: block;
+    padding: .5rem 1rem;
+    margin: 4px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: all 0.3s ease;
+    margin: 4px; 
+    color: #2e7eed;
+    font-weight: bold;
+
+} */
+.lumBtn {
+    
+    background-color: #eef6fe;
+    border-radius: 20px 0 0 20px;
+    padding: .5rem 0.5rem;
+    font-weight: 300;
+    margin-right: 0.2rem;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    padding: .5rem 0;
+    margin-bottom: 0px;
+    padding-left: 42px;
+  
+   
+}
+.lumBtn a , .spiBtn a{
+    font-weight: 600;
+    color: #2e7eed;
+  
+    text-align: center;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    margin-right: 20px;
+    width: 100px;
+    position: relative;
+    border: 0;
+    
+}
+.spiBtn{
+    background-color: #eef6fe;
+    border-radius: 0px 20px 20px 0px;
+    padding: .5rem 0.5rem;
+    font-weight: 300;
+    margin-right: 0.2rem;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    padding: .5rem 0;
+    margin-bottom: 0px;
+    padding-right: 58px;
+    padding-left: 42px;
+}
+   
+
+
+.spiBtn a{
+    text-align: center;   
+    text-align: center;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+}
+.nav-tabs .nav-item .nav-link:before {
+    content: "hello";
+    position: absolute;
+    left: 0;
+    bottom: -33px;
+    padding: 12px;
+    width: 100%;
+    height: 2px;
+    background-color: #DEDEDE;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.spiBtn a:before,.lumBtn a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 100%;
+    height: 3px;
+    background-color: #DEDEDE;
+    transition: all 0.3s ease;
+    border-radius: 1px;
+}
+.lumBtn_active a::before {
+    background: #2e7eed;
+}
+.spiBtn-active a::before {
+    background: #2e7eed;
+}
