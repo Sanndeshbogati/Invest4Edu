@@ -60,11 +60,6 @@ render() {
                              <Login showModalPopup={this.state.showModalPopup}  
                               onPopupClose={this.isShowPopup}  ></Login>
                              
-                                 {/* <Otp showModalPopup={this.state.showModalPopup}  
-                                   onPopupClose={this.isShowPopup}></Otp> */}
-
-
-
                            <button className="signinpopup" onClick={()=>this.isShowPopup1(true)} style={{border:"none", backgroundColor:"rgba(var(--bs-light-rgb),var(--bs-bg-opacity))", float:"left"}}>
                             Signup </button>
                            <Signup showModalPopup={this.state.showModalPopup1} onPopupClose={this.isShowPopup1}/>
