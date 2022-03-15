@@ -25,9 +25,7 @@ class PageHeader extends React.Component<any,any> {
   isShowPopup1 = (status: any)=>{
       this.setState({showModalPopup1:status})
   }
-
-
-  render() {
+render() {
     return (
             <div>
             <Fragment>
