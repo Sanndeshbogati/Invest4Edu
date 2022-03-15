@@ -1,0 +1,275 @@
+/* .filter-mutualfunds-main{
+padding: 100px 0; */
+
+.filter-mutual-sub-main{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+   
+
+.filter-mf-main{
+    width:100%;
+    border: 1px solid #ecedef;
+    border-radius: 3px;
+    box-shadow: 0 2px 3px 0 #ecedef;
+    float: left;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+}
+.filter-md4{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+
+    padding-left: 15px;
+}
+.filter-mf-text{
+    padding: 15px;
+    padding-bottom: 0;
+}
+.filter-mf-mainh1{
+    font-size: 15px;
+    color: black;
+    font-weight: 570;
+    letter-spacing: .3px;
+    line-height: 61px;
+ 
+    
+
+}
+.filterfund-mainsub{
+    position: relative;
+    padding-right: 4%
+   
+}
+
+.colw {
+    flex: 1 0;
+}
+.fmfbt{
+    font-size: 13px;
+    font-weight: 500;
+    color: #2e7eed;
+    float: right;
+    border: none;
+    background-color:#fff
+}
+.filter-box-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right:-13px;
+    margin-left: -12px
+}
+.filter-mf-md12{
+    position: relative;
+    width: 100%;
+    padding-right:11px;
+    padding-left: 15px;
+}
+.filter-other-cont{
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-right: 13px;
+}
+.filter-tabs-heading{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+
+    display: inline-block;
+    margin-top: 16px;
+    width: 100%;
+    
+}
+.filter-icons-down{
+    float: right;
+}
+.filter-fund-icons{
+    position: absolute;
+    left: 47px;
+    top: 79px;
+    color: #bdbcbc;
+    font-weight: 900;
+    
+}
+
+
+.PARTH{
+    color: #2e7eed !important;
+}
+
+.search_input{
+    border: 1px solid #ecedef;
+    padding: 6px 5px;
+    width: 100%;
+    box-shadow: none;
+    outline: none;
+    background: var(--primaryBg);
+    color: var(--text);
+    margin-top: 7px;
+    margin-bottom: 6px;
+    padding-left: 30px;
+    font-size: 14px;
+}
+.filter-mutual-checkbox-list{
+    margin-top: 8px;
+    max-height: 205px;
+    overflow-y: scroll;
+    font-weight: 400;
+    
+
+}
+.overflow-scole{
+    overflow:auto;
+}
+
+.filter-form-group{
+    cursor: pointer;
+    margin-bottom: 6px
+}
+.fmf-unck{
+    padding: 0;
+}
+.filter-span{
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+
+
+
+.mutual-fund-body{
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+ 
+}
+.mutual-fund-body:hover{
+   transition: .2s;
+        
+}
+.pills-body {
+    border-bottom: 1px solid #ccc;
+    padding: 11px 0px;
+    margin: 0 -13px;
+    cursor: pointer;
+    transition: .5s;
+}
+.pills-body:hover {
+    transform: scale(1.02);
+}
+
+.plan-body{
+    float: left;
+}
+
+.plan-body h2, h2 a {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 20px;
+    color: black;
+}
+
+.plan img {
+   
+    float: left;
+    margin-right: 10px;
+}
+
+
+.i4e{
+    float: left;
+    font-size: 15px;
+}
+
+
+.filter-sm-call{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: 400;
+    padding: 0px 15px;
+}
+
+.filter-rightside-h1{
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 61px;
+        color: #000;
+        
+}
+.filter-semi-main-done{
+    width: 66.66666667%;
+}
+
+.filter-side-h2{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 20px;
+} 
+.filter-side-p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 25px;
+    color: #808080;
+    margin-bottom: 0;
+
+}
+/* start css for tab view  */
+
+@media  screen and (max-width:992px) and (min-width:769px){
+    
+    /* .filterfund-mainsub{
+        width: 100%;
+    }
+    .filter-mf-main{
+        width: 100%;
+    }
+    .filter-semi-main-done{
+        width: 100%;
+    }
+    .fmfbt{
+        margin-left: 77%;
+    } */
+ .container{
+     max-width: 900px;
+ }
+}
+
+/* start css for mobile screen */
+@media screen and (max-width:768px) {
+  
+.filter-semi-main-done{
+    width: 100%;
+}
+.filter-mf-main{
+    width: 100%;
+}
+.size-extand{
+    width:17%;
+}
+.i4e{
+    font-size: 11px;
+}
+.filterfund-mainsub{
+    width: 100%;
+}
+.filter-semi-main-done{
+    padding-right: none;
+}
+}

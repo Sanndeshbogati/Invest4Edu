@@ -1,0 +1,336 @@
+.content-header{
+  /* background: url(../../images/loginbg-light.jpg); */
+  background-color: #eef6fe;
+  background-size: cover;
+  border-radius: 20px;
+    outline: 0;
+    padding: 3%;
+}
+.model-header-login{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+
+}
+.LoginSignup-modal-header{
+    display: block;
+    border-bottom: 1px solid #000;
+    padding: 1rem 1rem
+}
+.model-signin-h5{
+   
+    color: #2e7eed;
+    padding: 4% 0px;
+    margin-right: 1.2rem;
+    text-align: center;
+    margin-bottom: -1px;
+    font-size: 19px;
+
+}
+.model-signin-h5 b{
+    border-left: 2px solid #2e7eed;
+
+}
+.signup-clss-up{
+    position: relative;
+    font-weight: bold;
+    color: #2e7eed;
+    text-decoration: none;
+    margin-right: 1.2rem;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.login-mouse{
+    font-size: 20px;
+    margin-top: -4px;
+}
+.model-login-h5{
+    color: #2e7eed;
+    font-size: 16px;
+    margin-bottom: 3.5%;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-top: 6%;
+font-weight: 300;
+    
+
+}
+.log-in-forget-poss{
+    margin-top: 3%;
+    color: #2e7eed;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ 
+    
+
+}
+.close-login{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    background: none;
+    border: 0;
+    padding: 1rem 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+.form-conntrol-login{
+    background: #fff;
+    padding: 15px 20px;
+    height: 48px;
+    border: 1px solid  #cccccc;
+    font-size: 14px;
+    width: 100%;
+
+    line-height: 1.5;
+    color: #495057;
+border-radius: 20px;
+    
+}
+.form-row-login{
+
+    text-align: center;
+    margin-right: -5px;
+    margin-left: -5px;
+
+}
+.login-button-main{
+    margin-top: 5%;
+    padding: 13px 50px;
+    border-radius: 100px;
+    color: #2e7eed;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid #2e7eed;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.login-button-main:hover{
+    background-color: #2e7eed;
+    color:#fff
+}
+.user-login-icone{
+   display: flex;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+    margin-bottom: 0px;
+    list-style: none
+}
+.user-login-li{
+    margin-bottom: -1px
+}
+.user-login-tab-link{
+    position: relative;
+    font-weight: bold;
+    color: #2e7eed;
+    text-decoration: none;
+    margin-right: 1.2rem;
+    text-align: center;
+    padding: 0.5rem 0;
+}
+.user-signup-tab-li{
+    border-left: 2px solid #2e7eed;
+    padding-left: 5%
+}
+
+
+.login-sign-up-user-icone{
+    text-align: center;
+
+}
+.col-sign-up{
+    padding-right: 5px;
+     padding-left: 5px
+}
+
+
+
+/* end css of signup */
+/* start css on signup */
+.content-header-UP{
+
+    background-color: #eef6fe;
+    background-size: cover; 
+   border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 20px;
+      outline: 0;
+}
+.model-sign-up-h5{
+    color: #2e7eed;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 400;
+    /* text-align: center */
+}
+.close-sign-up{
+    float: right;
+    font-size: 1.5rem;
+    font-weight:500;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    background: none;
+    border: navajowhite;
+    /* margin: -25px -6px 0px 0px; */
+
+}
+.close-sign-ori-up{
+    margin: -25px -6px 0px 0px;
+    float: right;
+    font-size: 1.5rem;
+    font-weight:500;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    background: none;
+    border: navajowhite;
+}
+
+.model-header-sign-up{
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+.model-body-sign-in{
+    position: relative;
+    flex: 1 1 auto;
+    padding:1rem;
+    
+}
+.h5-sign-up{
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 3.5%;
+    padding-bottom: 4%;
+}
+.sign-up-img{
+    text-align: center;
+
+}
+.sign-up-h5-or{
+    text-align: center;
+    color:#000 ;
+    border-bottom: 1px solid #000;
+    margin-bottom: 3.5%;
+    padding-bottom: 4%;
+    text-align: center;
+    font-size: 300;
+}
+.form-row-sign-up{
+    margin-bottom:3% ;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left:16px;
+
+}
+.col-sign-up col{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.form-control-sign-up{
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #05499c;
+    margin-bottom:5%;
+
+}
+.signup-poss{
+    width: 95%;
+}
+.condition-a{
+    color: #2e7eed;
+}
+.form-check-label-signup{
+    
+    color:#2e7eed ;
+    font-size: 14px;
+    margin-left: 0.75rem;
+}
+
+.login-sigin-otp{
+    margin-top: 3%;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.user-login-li .user-login-tab-link:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: #DEDEDE;
+}
+.user-signup-tab-li .signup-clss-up:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 2px;
+    background-color: #DEDEDE;
+}
+.login_active a:before {
+    background-color: #2e7eed !important;
+}
+.login_active1 a:before {
+    background-color: #2e7eed !important;
+}
+.user-dashboard{
+    padding: 1rem;
+
+}
+.form-for-signup-rem{
+    padding-top:8%;
+    padding-bottom: 5%;
+}
+/* satert css for the otp component  */
+
+.model-otp-h5{
+    color: #474a4f;
+    text-align: center;
+    margin-top: 10%;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+.model-otp-h6{
+    color: #2e7eed;
+    padding-bottom: 4%;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.modal-content{
+    border-radius: 1.3rem;
+    margin-top: 30%;
+}
