@@ -1,0 +1,272 @@
+.section{
+    padding-bottom: 8%;
+}
+
+.User_profile_background
+/* .col-md-12 */
+{ 
+    background-color: #eef6fe;
+    border-radius: 20px;
+    padding: 5% 0;
+}
+
+
+
+h2{
+    font-size: 40px;
+    line-height: 30px;
+}
+
+h3{
+    font-size: 20px;
+    line-height: 30px;
+    color: #000;
+    font-weight: 300;
+    margin: 1.5rem 0.5rem 3rem 10px;
+}
+
+.btn-rounded-icon{
+
+    border: 1px solid #05499c;
+    padding: 13px 50px;
+    border-radius: 100px;
+    margin-top: 7%;
+    color: #05499c;
+}
+
+.OR{
+    margin: 25px 10px ;
+} 
+
+.input-group-prepend{
+    width:35%;
+    margin:auto;
+}
+
+.input-group-text{
+    background-color: #05499c;
+    padding: 17px;
+    color: white;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid #05499c;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    border: 1px solid #05499c;
+    box-shadow: 0 0 0 -0.75rem rgb(61 162 296 / 101%);
+}
+
+.suresh_input {
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 1px solid #05499c;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+    color: #05499c;
+}
+
+.check-box {
+    color: #808080;
+}
+
+.form-check-label{
+    padding: 0% 1%;
+}
+
+.verifyForm input{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+}
+
+.rounded{
+    width:5%;
+    height: 50px;
+}
+
+.resend_OTP span a{
+    text-decoration: none;
+    color: #000;
+}
+.resend_OTP span a:hover{
+    text-decoration: none;
+    color:#0073ff
+}
+
+.OTP_verification h3 a{
+    font: inherit;
+    color: inherit;
+    font-weight: 400;
+    text-decoration: none;
+}
+.OTP_verification h3 a:hover{
+ color: #0073ff;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+
+}
+.emailVerify input, .Email_verification input{
+    width:400px;
+}
+
+.verifyBank{
+    padding-bottom: 20px;
+}
+
+.verifyBank input{
+    width: 45%;
+}
+
+.uploadDoc{
+    flex-direction: column;
+}
+
+.uploadDoc label{
+    padding-bottom: 10px;
+    margin: 2%;
+    color: #808080;
+}
+
+.uploadDoc-file{
+    margin: 0 20%;
+    padding: 21px 0px;
+    background-color: #c7e0ff;
+    border-radius: 5px;
+}
+
+.Review{
+    font-size: 16px;
+    padding: 21px 60px;
+    background-color: #c7e0ff;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.addAdhar-form-check-lable{
+    color: #808080;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.CP_login_lonk{
+    color: #0073ff;
+}
+
+.p-2{
+    padding: 1.5rem !important;
+}
+
+
+
+/* --------------------- Mobile View ------------------------- */
+
+
+@media  screen and (max-width:480px) {
+
+    .cont1{
+        width:90%
+    }
+   
+    .section{
+        padding-top: 10%;
+    }
+    
+    h2{
+        font-size: 35px;
+        line-height:62px;
+        padding: 0px 10px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+  
+    .btn-rounded-icon{
+        padding: 10px 25px;
+    }
+    
+    .input-group{
+        width: 270px;
+    }
+    
+    .verifyForm input {
+        width: 240px;
+    }
+
+    .m-2{
+        margin: 6px !important;
+    }
+
+    .rounded{
+        width:10%;
+        height: 40px;
+    }
+    
+    .form-control{
+        padding: 7px;
+    }
+
+    .Review {
+        padding: 20px 17px;
+    }
+    
+    .uploadDoc-file {
+    margin: 2px 5%;
+    padding: 21px 0px;
+    }
+
+
+}
+
+/* --------------------- Tab View ------------------------- */
+@media screen and (max-width: 992px) and (min-width: 481px) { 
+
+    .cont1{
+        width:90%
+    }
+
+    .section{
+        padding: 8%;
+        
+    }
+    h2{
+        line-height:62px;
+    }
+
+    .btn-rounded-icon{
+        padding: 14px 40px;
+    }
+    .input-group{
+        width: 300px;
+    }
+    .rounded{
+        width:50px;
+        height: 40px;
+    }
+    .form-control{
+        padding: 0;
+    }
+    .rounded{
+        width:8%;
+        height: 40px;
+    }
+    .form-control{
+        padding: 7px;
+    }
+    .Review {
+        padding: 20px 17px;
+    }
+}

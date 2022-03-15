@@ -1,0 +1,39 @@
+.switch_close{
+    margin-top: 10px;
+    float: right;
+}
+
+.scheme-name h3 {
+    margin: 0.5rem 0.5rem 1rem 0px;
+}
+
+.swp-start-end{
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 3px;
+    border-color: #ced4da;
+    color: #0c4e9e;
+}
+
+.swp_cont{
+    padding-top: 20px;
+}
+.swp_checkbox{
+
+    display: flex!important;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.swp_checkbox input{
+    margin-right: 10px;
+}
+
+.swp_close_btn{
+    float: right;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    color: #2e7eed;
+    font-size: 1.5rem;
+
+}

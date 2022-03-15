@@ -1,0 +1,137 @@
+.mf_section{
+    padding-top: 100px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.mf_section h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.mf_section__h1{
+    padding: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    background-color: #eef6fe;
+    border-radius: 20px;
+    padding: 20% 10%;
+}
+
+.app-feature p, .app-feature  li{
+    color: #808080;
+}
+
+.app-feature h2{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.app-feature h5{
+    font-size: 20px Bold;
+    font-weight: 700;
+}
+
+.compare-mf{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main_section {
+    padding: 5% 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.search_mfund{
+    position: absolute;
+    padding: 14px 18px;
+    border-right: none;
+    border-left: #2e7eed solid 2px;
+    color: #2e7eed;
+    background-color: #eef6fe;
+    border-radius: 20px 0 0 20px;
+
+}
+
+.compare_funds_search_div{
+    padding-left: 22%;
+}
+
+.compare_search{
+    position: absolute;
+    padding: 14px;
+    margin-left: -40px;
+    border-right: none;
+    font-size: 48px;
+    border: #2e7eed solid 2px;
+    color: #2e7eed;
+    background-color: #eef6fe;
+    border-radius: 20px 0px 0px 20px;
+    border-right-color: #2e7eed;
+    border-right-style: solid;
+    border-right-width: 0px;
+}
+
+.search_mfund {
+    background-color: white;
+    width: 70%;
+    border: #2e7eed solid 2px;
+    border-left-color: #2e7eed;
+    border-left-style: solid;
+    border-left-width: 2px;
+    padding: 10px 20px;
+    outline: none;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+}
+
+.compare_funds_grp{
+    display: flex;
+    align-items: flex-end;
+}
+
+.compare_funds {
+    margin-top: 4%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.compare{
+    padding: 100px 0;
+}
+
+.compare-mf h1{
+    font-weight: 300;
+}
+
+.compare_funds p{
+    font-weight: 400;
+    color: #808080;
+    font-size: 18px;
+}
+
+/* .btn{
+    margin-bottom: 10px;
+    color: #2e7eed;
+    border: 1px solid #2e7eed;
+    border-radius: 100px;
+    padding: 13px 50px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+} */
+
+/* .btn:hover{
+    background-color: #2e7eed;
+    color: #fff !important;
+} */
+
+.ti{
+    margin-top: 25px;
+}

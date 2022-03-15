@@ -1,0 +1,62 @@
+@media (min-width: 576px){
+
+    .modal-dialog {
+        max-width: 700px;
+        margin: 1.75rem auto;
+    }
+}
+@media (max-width: 768px){
+
+    .modal-content{
+        margin: 20px ;
+    }
+}
+
+.switch_container{
+    padding: 20px;
+}
+
+.switch_scheme_name{
+    background-color: #2e7eed;
+    color: white;
+    padding-left: 20px;
+}
+
+.switch_scheme_name strong{
+    padding: 0;
+}
+.switch_units_value{
+    padding: 10px;
+}
+.reg{
+    padding-right: 10px;
+}
+.switch_checkbox, .switch_checkbox input{
+    display: flex;
+    margin-top: 6px;
+    margin-right: 6px;
+}
+
+.switch-checkbox-tnc{
+    padding-left: 0px !important;
+
+}
+
+.switch_container ul {
+    list-style-type: none;
+}
+
+.switch_btn{
+    display: flex;
+    width: 95px;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 5px;
+    border-bottom-width: 1px !important;
+    background-color: #2d415e !important;
+    cursor: pointer;
+}
+
+.switch_cont{
+    padding-top: 10px;
+}
