@@ -15,8 +15,6 @@ class PageHeader extends React.Component<any,any> {
     this.state={
         showModalPopup:false,
         showModalPopup1:false,
-    
-        
     }
   }
   isShowPopup = (status: any)=>{
@@ -25,9 +23,7 @@ class PageHeader extends React.Component<any,any> {
   isShowPopup1 = (status: any)=>{
       this.setState({showModalPopup1:status})
   }
-
-
-  render() {
+render() {
     return (
             <div>
             <Fragment>
@@ -64,11 +60,6 @@ class PageHeader extends React.Component<any,any> {
                              <Login showModalPopup={this.state.showModalPopup}  
                               onPopupClose={this.isShowPopup}  ></Login>
                              
-                                 {/* <Otp showModalPopup={this.state.showModalPopup}  
-                                   onPopupClose={this.isShowPopup}></Otp> */}
-
-
-
                            <button className="signinpopup" onClick={()=>this.isShowPopup1(true)} style={{border:"none", backgroundColor:"rgba(var(--bs-light-rgb),var(--bs-bg-opacity))", float:"left"}}>
                             Signup </button>
                            <Signup showModalPopup={this.state.showModalPopup1} onPopupClose={this.isShowPopup1}/>
@@ -83,5 +74,5 @@ class PageHeader extends React.Component<any,any> {
     )
 }   
 }
- 
+  
 export default PageHeader;
