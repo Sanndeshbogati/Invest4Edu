@@ -1,0 +1,216 @@
+.mf_section{
+    padding-top: 100px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+.mf_section h1{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.mf_section__h1{
+    padding: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.content {
+    background-color: #eef6fe;
+    border-radius: 20px;
+    padding:0% 10%;
+    margin-top: 2%;
+}
+
+.app-feature p, li{
+    color: #808080;
+}
+
+.app-feature h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.app-feature h5{
+    font-size: 20px Bold;
+    font-weight: 700;
+}
+
+.compare-mf{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.main_section {
+    padding: 5% 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+
+.search_mfund{
+    position: absolute;
+    margin-left: -45px;
+    padding: 14px 18px;
+    border-right: none;
+    border-left: #2e7eed solid 2px;
+    color: #2e7eed;
+    background-color: #eef6fe;
+    border-radius: 20px 0 0 20px;
+
+}
+
+.search_mfund {
+    background-color: white;
+    width: 80%;
+    border: #2e7eed solid 2px;
+    border-left-color: #2e7eed;
+    border-left-style: solid;
+    border-left-width: 2px;
+    padding: 10px 20px;
+    outline: none;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+}
+
+.compare_funds {
+    margin-top: 1%;
+    text-align: end;
+    margin-bottom: 10px;
+}
+
+.compare{
+    padding: 100px 0;
+}
+
+.compare-mf h1{
+    font-weight: 300;
+}
+
+.compare_funds p{
+    font-weight: 400;
+    color: #808080;
+    font-size: 18px;
+}
+
+.btn-comm{
+    margin-bottom: 10px;
+     color: #2e7eed;
+    border: 1px solid #2e7eed;
+    border-radius: 100px;
+    padding: 13px 50px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn-comm:hover{
+    background-color: #2e7eed;
+    color: #fff !important;
+}
+
+
+.list-fund-basket{
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+}
+.list-fund-basket-h5{
+    font-weight: bold;
+    margin-top: 1.5rem;
+    font-size: 27px;
+}
+.fund-list-tpopup{
+    border: 1px solid black;
+    padding: 12px;
+    position: relative;
+    background: #b7d4f2;
+    border-radius: 5px;
+    margin: 14px 0px
+}
+.fund-list-amts{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.basket-minus-btn{
+    font-size: 6px;
+    border-radius: 16px;
+    margin-left: 10px;
+    padding: 0px;
+    background: none;
+    height: fit-content;
+    margin-top: 4px;
+}
+.basket-minus-img{
+    width: 13px;
+    max-width: 100%;
+    height: auto;
+
+}
+.add-funds-btn-basket{
+    background: #219bf3;
+    font-size: 16px;
+    border-radius: 5px;
+    color: black;
+    width: 100%;
+    height: 40px;
+}
+.search-box-fund{
+    display: flex;
+
+}
+.search-input-basket{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+.search-icone-basket{
+    color: #8d8d8d;
+    padding: 8px 0;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+
+.MF_POST{
+    padding-bottom: 20px;
+}
+.main-basket-minus-btn{
+    border: none;
+    font-size: 30px;
+
+}
+/* start tab  media screen */
+@media  screen and (max-width:992px) and (min-width:767px){
+    .btn{
+        
+    }
+}
+
+
+
+/* @media  screen and (max-width:768px) and (min-width:574px){
+}
+
+
+
+
+
+/* start @media screen  */
+@media  screen and (max-width:768px){
+    .content{
+        padding: 5% 10%;  
+    }
+   .mf-basket-post-login-row{
+        display: contents;
+    }
+    .MF_POST {
+        width: 100%;
+    
+}
+
+}

@@ -1,0 +1,442 @@
+/* start css on mutual fund goals */
+.mutual-funds-goals-main{
+    padding:0;
+  }
+  .mutual-funds-goal-wrap{
+  align-items: center !important;
+      padding: 2% 0 1% 0.5%;
+      margin-bottom: 5%
+  }
+  
+     
+  
+  .img-mf{
+    width: 50%;
+  }
+  .mutualfundsh1{
+    padding: 5% 10% 10% 10%;
+    text-align: center;
+   color: #000;
+    font-weight:300; 
+    margin-top: 0;
+    font-size: 45px;
+    line-height: 61px;
+  }
+  .mutual-funds-mf{
+      background-color: #eef6fe;
+      border-radius: 20px;
+      padding: 2%;
+      text-align: center;
+      max-width: 25%;
+      margin-left: 3%;
+  }
+  .mt-goal-icone{
+    font-size:50px;
+      color: #000000;
+      font-weight: 900;
+  }
+  .mutual-fundh{
+    color: #000;
+      font-size: 25px;
+      line-height: 30px;
+      margin-top: 5%;
+  }
+  .btn-mutualfunds{
+    color:#2e7eed; ;
+      border: 1px solid #2e7eed;
+      border-radius: 100px;
+      padding: 13px 50px;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    
+  }
+  .btn-mutualfunds:hover{
+    background-color: #2e7eed;
+    color: #fff;
+  }
+  .m-funds-mouse{
+    line-height: 1;
+    width: 20px;
+    height: 28px;
+  }
+  
+  /* end css on mutual fund goals */
+  
+  
+  /* start css on mutual fund help */
+  
+  .image-help{
+    width: 70%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    text-align: center !important;
+  
+  
+  }
+  .mutual-help-container{
+    padding-right: 15px;
+      padding-left: 15px;
+  } 
+  .mutual-funds-help-wrap{
+    /* padding: 2% 0 1% 0.5%; */
+    margin-bottom: 5%;
+    align-items: center !important;
+    margin-top: 10%;
+    /* margin-right: -15px; */
+      /* margin-left: 8px; */
+  
+  
+  } 
+  .text-center-help{
+    text-align: center;
+    position: relative;
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+  .fundshelph1{
+    font-size: 45px;
+    line-height: 61px;
+    font-weight: 300;
+    
+  }
+  .text-center-help1{
+    background-color: #eef6fe;
+      border-radius: 20px;
+      padding: 10%;
+      text-align: center;
+      margin-left: 10%;
+  }
+  .mth-goal-icone{
+    font-size: 55px;
+    margin-bottom:8%;
+    color: #000000;
+  }
+  .fundshelp-h2{
+  text-align: center;
+  font-size: 40px;
+      line-height: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+  }
+  .fundshelps-p{
+    text-align: center;
+      color: #808080;
+      font-size: 16px;
+      letter-spacing: 0;
+      line-height: 25px;
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+  /* start css on mutual fund help */
+  
+  /* start css on mutual fund search */
+  .mutual-fund-search{
+   margin:0px 15px ;
+  
+   padding: 0px 15px;
+  }
+  .mutual-fund-search-container{
+    padding: 2% 0 1% 0.5%;
+    margin-bottom: 5%;
+  }
+  .mutual-fund-search-wrap{
+   
+    padding: 30px 0px;
+    margin: 20px 0px;
+    text-align: center;
+    flex: 0 0 100%;
+      max-width: 100%;
+      margin-left: -15;
+  }
+  .mutual-fund-search-icone{
+    position: absolute;
+    padding: 14px;
+    margin-left: -40px;
+    border-right: none;
+    font-size: 48px;
+    border: #2e7eed solid 2px;
+    color: #2e7eed;
+    background-color: #eef6fe;
+    border-radius: 20px 0px 0px 20px;
+    border-right-color: #2e7eed;
+    border-right-style: solid;
+    border-right-width: 0px;
+  
+  }
+  .search-mutualfund{
+    background-color: white;
+    width: 88%;
+    border: #2e7eed solid 2px;
+    padding: 10px 20px;
+      outline: none;
+      border-left: none;
+      border-radius: 0 20px 20px 0;
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+  
+  
+  }
+  /* end css on mutual fund search */
+  
+  
+  
+  /* start css on mutual fund benefits */
+  
+  .mutual-fund-benefits-wrap{
+    padding: 2% 0 1% 0.5%;
+      margin-bottom: 5%;
+      text-align: center;
+   
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+  .mutual-benefit-main{
+    background-color: #eef6fe;
+      border-radius: 20px;
+      padding-top: 5%;
+      padding-bottom: 5%;
+      text-align: center !important;
+  }
+  .benefit-h2{
+    text-transform: uppercase;
+      margin-bottom: 5%;
+      font-size: 43px;
+      line-height: 50px;
+      color: #000;
+      font-weight: 300;
+    
+  }
+  .mth-benefit-icone{
+    font-size: 48px;
+      color: #000000;
+    margin-bottom: 1opx;
+  }
+  .mf-benefit-table{
+    margin-bottom: 10%;
+    color: #212529;
+  
+  }
+  .mfb-t1{
+    color: #FFFFFF;
+      width: 55%;
+      background-color: #2e7eed;
+      vertical-align: bottom;
+      border-bottom: 2px solid #dee2e6;
+      padding: 0.75rem;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+      font-weight: 400;
+  }
+  .mfb-table{
+    font-size: 25px;
+      color: #fff;
+      margin-right: 5%;
+      font-weight: 900;
+  }
+  .benefit-tabletd{
+    padding: 18px;
+      vertical-align: top;
+      border-top: 1px solid #dee2e6;
+      color: #000;
+      
+  }
+   .benefit-extra {
+    background-color: #eef6fe;
+    border-radius: 20px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+   
+  }
+  .mutual-found-benefit-h2{
+    font-size: 40px;
+      line-height: 50px;
+      color: #000;
+      font-weight: 300;
+  }
+  .mth-benefits-icone{
+    color: #2e7eed;
+      margin-right: 3%;
+  }
+  
+  
+  
+  /* end css on mutual fund benefits */
+  /* end css on mutual fund compare */
+  .mutal-fund-compare-wrap{
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .mutualfuns-compare{
+    align-items: center !important;
+    display: flex !important;
+  
+  
+  }
+  .mutualfund-compare-p{
+    margin: 0 0 0 25%;
+      color: #808080;
+      font-size: 18px;
+  }
+  .btn-mutualcompare{
+    color: #2e7eed;
+      border: 1px solid #2e7eed;
+      border-radius: 100px;
+      padding: 10px 50px;
+    margin-bottom: 5px;
+  }
+  .btn-mutualcompare:hover{
+    background-color: #2e7eed;
+    color: #fff;
+  }
+  
+  /* end css on mutual fund compare */
+  
+  /* start css on mutual fund saving */
+  .mutual-fund-saving-main{
+    padding-bottom:100px;
+  
+  }
+  
+  
+  .mutual-fund-saving-conts{
+    margin-top: 5%;
+    width: 100%;
+      padding-right: 15px;
+      padding-left: 15px;
+    
+  }
+  .mutual-fund-saving-wrap{
+    justify-content: center !important;
+  
+  }
+  .mutual-fund-saving-cards-part{
+    background-color: #eef6fe;
+      border-radius: 20px;
+      position: relative;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin: 0px 4px;
+      margin-top: 6px;
+  }
+  .mycard-header{
+    text-align: center;
+      padding: 10% 0 2% 0;
+   
+  }
+  .mfs-mycard-header{
+    text-align: center;
+      padding: 10% 0 2% 0;
+      font-weight: 400;
+      
+  }
+  .mf-saving-icons{
+    font-size: 50px;
+      margin-bottom: 5%;
+      color: #2e7eed;
+      font-weight: 900;
+  }
+  .mutual-fund-p{
+    font-size: 16px;
+      letter-spacing: 0;
+      line-height: 25px;
+      color: #808080;
+      margin-bottom: 0;
+      margin-top: 0;
+  }
+  .mutual-fund-saving-ul{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+  }
+  .mutual-saving-image{
+    height: 2rem;
+    vertical-align: middle;
+  }
+  .mutual-fund-saving-pic{
+    text-align: right;
+    background: 0;
+    border: 0;
+    padding: 5%;
+  }
+  .mutual-fund-saving-li{
+    font-size: 16px;
+      letter-spacing: 0;
+      line-height: 25px;
+      color: #808080;
+      margin-bottom: 0;
+  }
+  /* end css on mutual fund saving */
+  @media screen and (max-width: 480px){
+    .career-headh1{
+      text-align: left;
+      font-weight: 600;
+      font-size: 17px;
+    }
+    .career-headh{
+      text-align: start;
+      font-weight: 600;
+      font-size: 17px;}
+    .img-gallery {
+      display: contents;
+      width:100%;
+    }
+    .fun-facts-col {
+      display: contents;
+      width:100%;
+    }
+    .factsp{
+      font-weight: 600;
+      font-size: 17px;
+    }
+    .job-list-main{
+      padding:0px;
+    }
+    .job-list-contain{
+      display:block;
+    }
+    .list-contain{
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    .list-contain{
+      text-align: center;
+    }
+    .job-listp{
+      color: black;
+    }
+    .mutual-funds-mf {
+      display: inline-table;
+     
+    }
+    .mutual-fund-search-icone{
+      margin-left: -17px
+    }
+    .mutual-fund-search{
+      margin: 1px 23px;
+      padding: 0px 24px;
+      padding-right: 5px;
+      margin-right: -9px
+    }
+   
+    
+    .mf-now{
+      margin-left: 31px;
+    }
+     .mutual-funds-mf{
+      max-width: none
+   
+  }
+  
+  
+  .mutual-funds-goal-wrap {
+    display: contents;
+  }
+  .mutal-fund-compare-wrap{
+    display: contents;
+  
+  }
+  
+  }

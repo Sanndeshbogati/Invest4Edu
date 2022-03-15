@@ -1,0 +1,174 @@
+/* post invest mf dashbd css */
+.post-mf-dashbd {
+    background-color: #edf4ff;
+    border-radius: 20px;
+    padding: 2%;
+  
+    margin-top: 3%;
+    /* background-color: #e6e6e6; border-radius: 20px; padding: 3% 2% 3%; margin-bottom: 3%; */
+}
+
+.mf-cart-hold {
+    font-size: 2rem;
+    color: #000;
+    line-height: 1.1;
+}
+
+.mf-cart-hold ul {
+    margin: 0;
+}
+
+.mf-cart-hold ul li {
+    display: inline-block;
+    width: 48%;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #121417;
+}
+
+.mf-cart-hold label {
+    display: block;
+    font-size: 12px;
+    color: #808080;
+    margin-bottom: 0.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.mf-cart-hold-table ul {
+    display: table;
+    width: 100%;
+    padding: 0px;
+}
+
+.mf-cart-hold-table ul li {
+    display: table-cell;
+    width: initial;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 !important;
+}
+
+.mf-cart-hold-table ul li:first-child {
+    text-align: left;
+}
+
+.text-green {
+    color: #029b26;
+}
+
+.positive:after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .355em;
+    vertical-align: middle;
+    content: "";
+    border-bottom: .5em solid #029b26;
+    border-right: .5em solid transparent;
+    border-top: 0;
+    border-left: .5em solid transparent;
+}
+
+/* 
+.prtflio-content {
+} */
+.prtflio-head-tab {
+    display: inline;
+}
+
+.prtflio-content-tabs {
+    /* display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto; */
+    padding: 10px;
+}
+
+.prtflio-content .prtflio-content-tabs {
+    padding: 0px;
+    display: inline;
+    float: right;
+    /* display: flex; */
+    /* list-style: none; */
+    /* margin: 0px; */
+}
+
+.prtflio-content-tabs .portfolio-tab {
+    margin-right: 10px;
+    font-size: 20px;
+    border-bottom: 3px solid;
+    padding: 5px 10px;
+    color: black;
+    display: inline;
+    cursor: pointer;
+}
+
+.prtflio-content-tabs .portfolio-tab:last-child {
+    margin-right: 0px;
+}
+
+.prtflio-content-tabs .portfolio-tab.active {
+    box-shadow: 0px -5px 8px 4px skyblue;
+    border-color: deepskyblue;
+}
+
+#piechart_3d svg g[column-id] rect {
+    font-size: 40px;
+}
+.transaction_mf_h4{
+    color: #646464;
+    margin-bottom: 3%;
+    font-weight: 300;
+}
+.post-transaction-main{
+    display: flex;
+    justify-content: space-between;
+}
+.holding-mf-download{
+    font-size: 17px;
+}
+.holding-post-mf{
+    font-size:20px;
+}
+.holding-mf-fund{
+    font-weight: 400;
+}
+
+@media (max-width:960px) {
+    .prtflio-content .prtflio-content-tabs {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        float: none;
+        display: inherit;
+    }
+}
+
+@media (min-width:960px) and (max-width:990px) {
+    .prtflio-content .prtflio-content-tabs {
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        float: none;
+        display: inherit;
+    }
+}
+
+.myaccordion thead th {
+    white-space: nowrap;
+}
+
+.myaccordion2 thead th {
+    white-space: nowrap;
+}
+  
+
+@media  screen and (max-width:575px){
+    .mf-cart-hold label{
+        font-size: 10px;
+    }
+}
+     
+ 

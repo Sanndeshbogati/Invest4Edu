@@ -1,0 +1,312 @@
+section.groww-watchlist {
+    padding: 100px 0;
+}
+.groww-watchlist .nav-tabs {
+    border-bottom: none;
+}
+.groww-watchlist .nav-tabs .nav-link {
+    border: none;
+    font-size: 17px;
+    font-weight: 700;
+    color: #495057;
+    border-bottom: 3px solid transparent;
+}
+.groww-watchlist a.nav-link.active {
+    color: #2e7eed !important;
+    border-bottom: 3px solid #2e7eed !important;
+}
+.groww-watchlist .main-box {
+    border: 1px solid #ecedef;
+    padding: 14px 0px;
+    border-radius: 6px;
+    margin-right: 50px;
+    padding-bottom: 0;
+}
+.groww-watchlist a.dropdowntoggle {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+.groww-watchlist button.btn.btn-primary.dropdowntoggle {
+    background: white;
+    color: black;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.groww-watchlist .dropdown-menu {
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 #ecedef;
+    border: 1px solid #ecedef;
+    width: 100%;
+    padding: 11px 14px;
+}
+.groww-watchlist .dropdown-menu h2 {
+    font-size: 16px;
+}
+.groww-watchlist .icons i {
+    color: #2e7eed;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    padding: 9px 13px;
+    border-radius: 5px;
+    width: 50px;
+    float: left;
+}
+.groww-watchlist .icons a {
+    text-decoration: none;
+}
+.groww-watchlist .icons {
+    width: 100%;
+    float: left;
+    padding: 12px 14px;
+}
+.groww-watchlist .icons:hover {
+    background: #f7f6f6b3;
+}
+.groww-watchlist .icons a span {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+.groww-watchlist span.watching-heading {
+    color: #2e7eed !important;
+    position: relative;
+    top: 10px;
+}
+.groww-watchlist span.items {
+    font-weight: 400 !important;
+    color: #afafaf !important;
+}
+.groww-watchlist .icons i{
+    margin-right:11px;
+}
+.groww-watchlist .example input {
+    background: white;
+    border-radius: 3px;
+    border: 1px solid #ecedef;
+    width: 100%;
+    box-shadow: 0 1px 10px 0 #ecedef;
+    height: 38px;
+    text-align: left;
+    padding: 0px 16px;
+    margin-left: -17px;
+}
+.groww-watchlist .example input:focus {
+    outline: none;
+}
+.groww-watchlist .heading {
+    margin-top: 25px;
+    text-align: end;
+}
+.groww-watchlist .heading h1 {
+    font-size: 12px;
+    padding: 18px 15px;
+    color: #cccdd0;
+    font-weight: 600 !important;
+    margin-bottom: 0;
+}
+h1.name {
+    position: relative;
+    top: 15px;
+}
+.groww-watchlist .list-item {
+    padding: 15px 15px;
+}
+.groww-watchlist i.fa.fa-bars {
+    color: black;
+    margin-right: 19px;
+}
+.groww-watchlist span.ff {
+    color: black;
+}
+.groww-watchlist .list-icons img {
+    width: 70%;
+}
+.groww-watchlist .list-text {
+    margin-top: -6px;
+}
+.groww-watchlist .list-text.rates h2 {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.groww-watchlist .list-text.rates h2.rate2 {
+    text-align: end;
+}
+.groww-watchlist .list-btn {
+    text-align: center;
+    display: none;
+    transition: .5s;
+}
+.groww-watchlist .list-item:hover {
+    background: #efefef7a;
+}
+.groww-watchlist .list-item:hover .list-btn {
+    display: block;
+    transition: .5s;
+}
+.groww-watchlist .list-text.rates{
+    transition: .5s;
+}
+.groww-watchlist .list-item:hover .list-text.rates {
+    display: none;
+    transition: .5s;
+}
+.groww-watchlist .list-btn button {
+    font-size: 20px;
+    font-weight: 600;
+    background: #2e7eed;
+    color: #fff;
+    padding: 1px 13px;
+    margin: 0 7px;
+    border: 1px solid #2E7EE8;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.groww-watchlist .list-btn button:hover {
+    transform: scale(1.1);
+}
+.groww-watchlist .list-text h2 {
+    font-size: 15px;
+    margin-bottom: -13px;
+    font-weight: 600;
+}
+.groww-watchlist .list-text p {
+    color: #2e7eed;
+    margin: 12px 28px;
+}
+.groww-watchlist .list-item {
+    padding: 15px 15px;
+    border-top: 1px solid #ecedef;
+    cursor: pointer;
+    transition: .5s;
+}
+.groww-watchlist .invest{
+    position: relative;
+    max-width: 350px;
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px 0 #ecedef;
+    float: right;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #ecedef;
+    text-align:center;
+}
+.groww-watchlist .invest img {
+    margin-bottom: 6px;
+}
+.groww-watchlist .invest h1{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: .22px;
+    margin-bottom: -12px;
+}
+.groww-watchlist .invest p{
+    font-size: 16px;
+    opacity: .7;
+    line-height: 23px;
+    letter-spacing: .21px;
+    color: var(--text);
+    margin-top: 22px;
+}
+.groww-watchlist .look-button a{
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-decoration: none;
+    background:#2e7eed;
+    padding: 10px 62px;
+    color:white;
+}
+
+ /* watchlist */
+.groww-watchlist .watchlist-content {
+    margin-left: 32%;
+}
+.groww-watchlist .watchlist-content h2 {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: .22px;
+    margin-bottom: 21px;
+}
+.groww-watchlist .watchlist-content p{
+    font-size: 16px;
+    opacity: .7;
+    line-height: 23px;
+    letter-spacing: .21px;
+    color: var(--text);
+    margin-top: 22px;
+}
+.groww-watchlist .watchlist-content {
+    margin-left: -7%;
+    margin-top: 36px;
+}
+.groww-watchlist .watchlist-content a {
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-decoration: none;
+    background:#2e7eed;
+    padding: 10px 62px;
+    color:white;
+}
+.groww-watchlist .nav-tabs .nav-item .nav-link:before {
+    display: none;
+}
+.list-icons a {
+    text-decoration: none;
+}
+.watchlist-list-mn{
+    color: black;
+    margin-right: 19px;
+}
+/* start meadi screen for tab */
+@media  screen and (max-width:992px) and (min-width:769px){
+    .groww-watchlist .invest{
+        float: none;
+    }
+    .groww-watchlist .look-button a{
+        padding: 10px 15px
+    }
+    .groww-watchlist .main-box {
+        margin-right: 0;
+    }
+    .groww-watchlist .invest p{
+        font-size: 12px
+}
+}
+
+
+
+
+
+
+/* start media screen for mobile */
+@media  screen and (max-width:768px){
+    .groww-watchlist .example input{
+        margin-left:0;
+    }
+    .groww-watchlist .invest{
+        float: none;
+        margin-top: 3%;
+    }
+    .groww-watchlist .main-box{
+        margin-right: 0;
+    }
+    .price-low-high{
+        width:auto;
+    }
+    .groww-watchlist .look-button a{
+        padding: 10px 26px;
+    }
+    .groww-watchlist .invest {
+        max-width:none;
+    }
+}

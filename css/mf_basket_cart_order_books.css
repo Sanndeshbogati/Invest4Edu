@@ -1,0 +1,70 @@
+.sorting_1 a {
+    text-decoration: none;
+    color:black;
+    border-style: none;
+}
+.table td{
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    text-align: inherit;
+}
+.font-weight-bold{
+    font-size: 12px;
+    color: #05499c;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    /* font-size: 1rem; */
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    font-weight: 500;
+}
+.table thead th{
+    border-bottom: 2px solid #dee2e6;
+    font-weight: 400;
+
+}
+.text-left{
+    text-align: left !important;
+}
+.mf-order-bookbtn{
+    font-size: 16px;
+    background: #2e7eed;
+    color: #fff;
+    padding: 9px 30px;
+    border-radius: 20px;
+
+    
+}
+/* table td :last-child{
+    border-bottom: none;
+} */
+/* /* overflow-x:aut0
+    width=auto */
+.dataTables_wrapper{
+    overflow-x: auto;
+}
+.new-order-book{
+    width: auto;
+}
+.mf-order-book-star{
+    vertical-align:middle !important;
+}
+
+.text-center_order_book{
+    border-style: none;
+}
+.text-right-basket-book{
+    border-style: none; 
+}
+.text-left-cart-order-mf{
+    border-style: none;
+}
+.extra-remove-line{
+    border-style: none;
+}
