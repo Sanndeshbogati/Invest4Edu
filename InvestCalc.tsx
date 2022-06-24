@@ -23,7 +23,7 @@ export class InvestCalc extends Component<any,any> {
 <div>
    <section className="edu-invest-planner" >
 
-        <div className="container invst-planner-cont">
+        <div className="container invst-planner-cont cont1">
          <div className="row invst-planner-wrapper" style={{justifyContent:" center"}}>
 
    {/* <!-------left column form ----------> */}
